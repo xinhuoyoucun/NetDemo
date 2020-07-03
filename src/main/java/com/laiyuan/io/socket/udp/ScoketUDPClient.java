@@ -42,8 +42,8 @@ public class ScoketUDPClient {
                 break;
             }
 
-//            datagramSocket.receive(outPacket);
-//            System.out.println(new String(outPacket.getData(),0,outPacket.getLength()));
+            datagramSocket.receive(outPacket);
+            System.out.println(new String(outPacket.getData(),0,outPacket.getLength()));
         }
 
 
